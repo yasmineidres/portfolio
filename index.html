@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Yasmine IDRES</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#parcours">Mon parcours</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section Accueil -->
+  <section id="accueil" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Yasmine IDRES</h1>
+        <h2>Étudiante en Informatique Biomédicale</h2>
+        <p>J’aime explorer la manière dont les données et le numérique peuvent améliorer la santé et la recherche médicale.</p>
+        <div class="hero-buttons">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="img/photo_identite.jpg" alt="Photo de Yasmine Idres">
+        </div>
+      </div>
+    </div>
+    <a href="#apropos" class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- Section À propos -->
+  <section id="apropos" class="section">
+    <div class="container">
+      <h2 class="section-title">À propos</h2>
+      <div class="about-content">
+        <div class="about-text">
+            <br>
+            <br>
+            <p>Je suis étudiante en Master Santé Publique – Informatique Biomédicale à l’Université Sorbonne Paris Nord. Curieuse et motivée, je m’intéresse particulièrement à la manière dont la technologie peut améliorer la recherche médicale et les soins de santé. Mon parcours m’a permis de développer une expertise dans l’analyse et l’exploitation des données biomédicales.</p> 
+            <p>Voici un aperçu de mes compétences :</p>
+             <ul class="skills-list"> 
+                <li>Analyse de données médicales</li>
+                 <li>Gestion de bases de données biomédicales</li>
+                  <li>Visualisation de données</li> 
+                  <li>Recherche scientifique en santé</li> 
+                  <li>Administration de systèmes Linux</li> 
+                  <li>Développement web (HTML, CSS, JavaScript)</li> 
+                </ul>
+        </div>
+        <div class="tech-icons">
+            <h1>Technologies maitrisées</h1><br>
+            <div class="tech-item">
+                <img src="img/logopython.jpeg" alt="Python">
+            </div>
+            <div class="tech-item">
+                <img src="img/logoR.jpg" alt="R">
+                
+            </div>
+            <div class="tech-item">
+                <img src="img/logosql.jpg" alt="SQL">
+               
+            </div>
+            <div class="tech-item">
+                <img src="img/logohtmlcss.jpeg" alt="HTML_css">
+               
+            </div>
+           
+            <div class="tech-item">
+                <img src="img/logolinux.jpeg" alt="Linux">
+                
+            </div>
+            <div class="tech-item">
+                <img src="img/logojs.jpg" alt="JavaScript">
+                
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Projets -->
+  <section id="projets" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Mes Projets</h2>
+      <div class="projects-grid">
+        <!-- Projet 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/medocs.jpg" alt="Quiz Médicaments">
+            
+          </div>
+          <div class="project-info">
+            <h3>Quiz Médicaments</h3>
+            <p>Application interactive pour tester ses connaissances sur les médicaments avec système de scoring.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="quiz/quiz.html" target="_blank">Quiz Médicaments</a>
+          </div>
+        </div>
+        
+        <!-- Projet 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/analyse.jpg" alt="Données VIH">
+          </div>
+          <div class="project-info">
+            <h3>Analyse VIH avec R</h3>
+            <p>Visualisation et modélisation de données épidémiologiques sur le VIH à l'échelle mondiale.</p>
+            <div class="project-tags">
+              <span>Biostat</span>
+              <span>R</span>
+        
+            </div>
+            <a href="projets/projet-groupe5.pdf" target="_blank">voir le projet</a>
+          </div>
+        </div>
+        
+        <!-- Projet 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/wb.jpg" alt="Endométriose">
+          </div>
+          <div class="project-info">
+            <h3>Endométriose & Nutrition</h3>
+            <p>les acides gras intestinaux a chaine courte : une nouvelle arme contre l'endometriose.</p>
+            <div class="project-tags">
+              <span>Recherche</span>
+              <span>Médecine</span>
+            </div>
+            <a href="projets/News & views groupe1.pdf" target="_blank">News & views</a>
+          </div>
+        </div>
+        
+        <!-- Projet 4 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/chr.jpg" alt="Télomères">
+          </div>
+          <div class="project-info">
+            <h3>Télomères & MII</h3>
+            <p>Étude statistique sur la corrélation entre longueur des télomères et maladies inflammatoires intestinales.</p>
+            <div class="project-tags">
+              <span>Biostat</span>
+              <span>Recherche</span>
+            </div>
+            <a href="rapport.pdf" target="_blank">Voir le rapport PDF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Expérience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experiences</h2>
+      <div class="timeline">
+        <!-- Expérience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-date">2025 (Stage)</div>
+          <div class="timeline-content">
+            <h3>Analyse de données cliniques</h3>
+            <h4>CHU de Paris</h4>
+            <p>Analyse et visualisation de données en gastroentérologie. Développement d'outils d'aide à la décision clinique.</p>
+            <div class="timeline-tags">
+              <span>Python</span>
+              <span>R</span>
+              <span>SQL</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Expérience 2 -->
+        <div class="timeline-item">
+          <div class="timeline-date">2022 (Stage)</div>
+          <div class="timeline-content">
+            <h3>Biologie médicale</h3>
+            <h4>Laboratoire Biogroup</h4>
+            <p>Techniques de laboratoire : Western Blot, PCR, spectrométrie de masse. Analyse de résultats biologiques.</p>
+            <div class="timeline-tags">
+              <span>Biologie</span>
+              <span>Analyse</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Formation 1 -->
+        <section id="Formations" class="section">
+            <div class="container">
+              <h2 class="section-title">Formations</h2>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h3>Master Informatique Biomédicale</h3>
+                            <h4>Université Sorbonne Paris Nord</h4>
+                            <p>Spécialisation en analyse de données de santé et développement d'applications médicales.</p>
+                        </div>
+                    </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021</div>
+                        <div class="timeline-content">
+                            <h3>Licence sciences de la vie</h3>
+                            <h4>Université Sorbonne Paris Nord</h4>
+                            <p>maîtrise des techniques d'analyse cellulaire et physiologique.<br> compréhension des processus biologiques fondamentaux.</p>
+                        </div>
+                    </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2017</div>
+                        <div class="timeline-content">
+                            <h3>Licence sciences de la vie</h3>
+                            <h4>UMMTO</h4>
+                            <p>connaissances de base des différents domaines de la biologie.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  <!-- Section Contact -->
+  <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Contactez-moi</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Disponible pour des opportunités</h3>
+          <p>Si vous souhaitez discuter d'un projet ou d'une collaboration, n'hésitez pas à me contacter.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>yasmine.idres@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+33 6 55 34 56 26</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Paris, France</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Votre nom" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Votre email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Sujet">
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Votre message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer le message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Yasmine Idres. Tous droits réservés.</p>
+      <div class="footer-links">
+        <a href="#">Mentions légales</a>
+        <a href="#">Confidentialité</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
